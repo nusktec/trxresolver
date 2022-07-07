@@ -1,0 +1,22 @@
+{
+  "owner": "block-4dc7c9ec434ed06502767136789763ec11d2c4b7",
+  "agent": {
+    "seeder": "https://rscbyte.com/ttl/desk-TTL1101-234XDR-2034",
+    "signer": "000011112223330099",
+    "power": "~2Hz"
+  },
+  "payload": {
+    "from": "block-4dc7c9ec434ed06502767136789763ec11d2c4b7",
+    "to": "block-8efd86fb78a56a5145ed7739dcb00c78581c5375",
+    "teller": {
+      "action": "transfer",
+      "teller": {
+        "type": "debit",
+        "qualifier": "-",
+        "redSign": false
+      },
+      "amount": "2500",
+      "symbol": "NGN"
+    }
+  }
+}
